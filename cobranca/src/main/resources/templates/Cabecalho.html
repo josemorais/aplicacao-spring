@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:th="http://www.thymeleaf.org">
+
+<nav class="navbar navbar-inverse navbar-static-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#"> <img alt="Algaworks"
+				src="/images/spring-mvc.png" />
+			</a>
+			
+		</div>
+		<form method="post" class="navbar-form navbar-right" th:action="@{/logout}">
+			  <button type="submit" class="btn btn-sm btn-default">
+				    <span class="glyphicon glyphicon-log-out"></span> 
+				    Sair
+			  </button>
+		</form>
+	</div>
+</nav>
+</html>

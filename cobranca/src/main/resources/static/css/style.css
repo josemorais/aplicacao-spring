@@ -1,0 +1,19 @@
+.navbar-brand{
+	padding-top: 12px;
+}
+
+.form-horizontal{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.panel-tabela{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.pull-right{
+	color: white;
+}
+.aw-titulo-panel{
+	float: left;
+	padding-top: 2px;
+}
