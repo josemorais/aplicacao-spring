@@ -44,6 +44,7 @@ public class TituloController {
 	public ModelAndView salvar(@Validated Titulo titulo, Errors errors, RedirectAttributes attributes) {
 		String redirect = "redirect:/titulos/novo";
 		String mensagem = "Título cadastrado com sucesso!";
+		
 		if (errors.hasErrors()) {
 			return new ModelAndView(CADASTRO_VIEW);
 		}
